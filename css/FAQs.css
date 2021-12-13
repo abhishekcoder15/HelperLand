@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+body{
+    font-family: "Roboto",sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#faqnav{
+    /* position: sticky; */
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #757575;
+    padding: 0!important;
+    /* font-size: 0.7rem!important; */
+}
+#logo-faq{
+    padding: 5px 5px 5px 10px;
+}
+
+#faqnav button{
+    color:white; 
+    margin-right: 15px;
+}
+
+#faqnav .nav-item .rounded-pill {
+    border: 1px solid #FFFFFF80;
+    font-size: 17px;
+    line-height: 40px;
+    padding: 0 20px;
+    margin: auto 5px;
+    background-color: #29626d;
+}
+#faqnav li a{
+    color: white;
+}
+
+/* header banner */
+#banner{
+    width: 100%;
+    background-size: cover;
+}
+
+/* faq para and seprator png */
+h1{
+    text-align: center;
+    margin-top: 25px;
+    
+}
+.seprator{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+hr{
+    display: inline-block;
+    width: 62px;
+    height: 1px!important;
+    color: black!important;
+    
+}
+
+.seprator-img{
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    display: inline;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.seprator-text{
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    color: #646464;
+}
+/* main css */
+#faq-main{
+    width: 946px;
+    color: #646464;
+}
+
+#faq-main .nav-link{
+    border-radius: 0;
+    background-color: #F6F6F6;
+}
+
+.faq-btns{
+    font-style: "roboto",sans-serif;
+    color: #646464;
+    margin:0 !important;
+    padding:0 !important;
+    line-height: 66px !important;
+    font-size: 17px !important;
+    border-bottom: 3px solid #1D7A8C!important;
+}
+
+#faq-main li .active{
+    color: white;
+    background-color: #1D7A8C;
+}
+
+.faq-qa{
+    margin: 20px 0 0;
+}
+
+.faq-qa b{
+    margin-left: 15px;
+}
+
+
+.panel-heading{
+    padding-left: 5px;
+    padding-bottom: 15px;
+}
+
+.panel-body{
+    padding-left: 45px;
+}
+
+
+
+
+
+
+/* got your newsletter */
+#news{
+    margin: 25px 0 55px;
+}
+
+#news h4{
+    font-size: 18px!important;
+    margin-bottom: 16px !important;
+}
+
+#news input{
+    font-size: 14px!important;
+}
+
+#news .email{
+    background-color: #F4F5F8!important;
+    border: 1px solid #565656!important;
+    padding-left: 22px!important;
+    line-height: 40px;
+    width: 233px;
+    margin-right: 11px;
+}
+
+#news .submit-btn{
+    background-color: #ff7b6d; 
+    color: #ffffff;
+    padding: 0 22px;
+    line-height: 40px;
+    border:0;
+}
+
+/* cdcd */
+/* #faq-main{
+    width: 946px;
+    color: #646464;
+}
+
+#faq-main .nav-link{
+    border-radius: 0;
+    background-color: #F6F6F6;
+}
+
+.faq-btns{
+    color: #646464;
+    margin:0 !important;
+    padding:0 !important;
+    line-height: 66px !important;
+    font-size: 17px !important;
+    border-bottom: 3px solid #1D7A8C!important;
+}
+
+#faq-main li .active{
+    color: white;
+    background-color: #1D7A8C;
+}
+
+.faq-qa{
+    margin: 40px 0 0;
+}
+
+.faq-qa b{
+    margin-left: 15px;
+}
+
+.faq-ans{
+    text-align: justify;
+    padding:20px 20px 0;
+    margin-left: 20px;
+} */
+
+
+/* footer css  */
+
+footer{
+    font-size: 14px;
+}
+
+#faq-footer-links a{
+    padding: 0 15px;
+    color: white;
+}
+
+.footerborder{
+    border-bottom: 1px solid #424242;
+   
+}
+#faq-footer{
+    margin: 0 120px;
+}
+/* 
+footer hr{
+    width: 100%;
+    color: white;
+    opacity: 0.25;
+} */
+.footer-bottom{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;
+    opacity: 0.4;
+}
+.footer-bottom a{
+    color: white;
+    text-decoration: none;
+}
+
+
